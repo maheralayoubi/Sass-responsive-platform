@@ -12,6 +12,10 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
+    body#bg-img .overlay {
+      position: absolute;
+      top: 0;
+      right: 0; }
 
 h1,
 h2,
