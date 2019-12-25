@@ -18,5 +18,20 @@
     // Rotate into X with menu line
     &.close {
         transform: rotate(180deg);
+
+        .btn-line {
+            // line 1 - Rotate
+            &:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            // line 2 - Hide
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            // line 3 - Rotate
+            &:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -6px);
+            }
+        }
     }
 }
